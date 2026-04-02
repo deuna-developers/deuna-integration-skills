@@ -46,6 +46,10 @@ When processing payments (purchase, authorize, capture, void, refund), load the 
 
 When integrating the DEUNA Web SDK (Payment Widget, Checkout Widget, or Card Vault), load the [./rules/sdk-web.md](./rules/sdk-web.md) file for setup, widget configuration, callbacks, and customization.
 
+## SDK Events
+
+When working with SDK event listeners, analytics, or subscribing to checkout events via `onEventDispatch`, load the [./rules/sdk-events.md](./rules/sdk-events.md) file for the full list of events, trigger conditions, and payloads.
+
 ## Mobile SDKs
 
 When integrating DEUNA on iOS, Android, or React Native, load the [./rules/sdk-mobile.md](./rules/sdk-mobile.md) file. For the latest mobile SDK details, fetch the live docs:
@@ -83,6 +87,7 @@ Read individual rule files for detailed explanations and code examples:
 - [rules/orders.md](rules/orders.md) - Order creation, tokenization, lifecycle, and management
 - [rules/payments.md](rules/payments.md) - Purchase, authorize, capture, void, refund flows
 - [rules/sdk-web.md](rules/sdk-web.md) - Web SDK initialization, Payment Widget, Checkout Widget, Card Vault
+- [rules/sdk-events.md](rules/sdk-events.md) - SDK events list, trigger conditions, and payloads for `onEventDispatch`
 - [rules/sdk-mobile.md](rules/sdk-mobile.md) - iOS, Android, and React Native SDK integration
 - [rules/webhooks.md](rules/webhooks.md) - Webhook events, dynamic webhooks, order/payment statuses, signature verification
 - [rules/error-handling.md](rules/error-handling.md) - Error code tables for API, payments, orders, checkout, subscriptions
